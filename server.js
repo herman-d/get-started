@@ -24,6 +24,13 @@ const configuration = {
     path: `//s3.${process.env.S3_REGION}.amazonaws.com/${process.env.S3_BUCKET}/`,
     componentsDir: 'components'
   },
+  templates: [
+    require('oc-template-es6'),
+    require('oc-template-jade'),
+    require('oc-template-handlebars'),
+    require('oc-template-typescript-react'),
+    require('oc-template-handlebars')
+  ],
   dependencies: []
 };
 
