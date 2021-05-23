@@ -28,8 +28,7 @@ const configuration = {
     require('oc-template-es6'),
     require('oc-template-jade'),
     require('oc-template-handlebars'),
-    require('oc-template-typescript-react'),
-    require('oc-template-handlebars')
+    require('oc-template-react')
   ],
   dependencies: []
 };
